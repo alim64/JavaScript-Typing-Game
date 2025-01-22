@@ -1,0 +1,20 @@
+#center, header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    font-size: 0.9em;
+}
+#svg-container {
+    width: 100%;
+    max-width: 400px; /* Adjust maximum width as needed */
+    height: auto;
+}
+.alternate-colour-scheme {
+    background-color: rgb(141, 141, 141);
+    color: rgb(255, 255, 255);
+    fill: rgb(133,6,6);
+}
